@@ -4,3 +4,4 @@ public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCrbTsZP8eCfbDIo2AVR4TR4ua8zv
 ec2_ami_id     = "ami-06dd92ecc74fdfb36"
 ec2_user_data_install_apache = ""
 domain_name = "devops-project.live"
+bucket = "${var.my_env}-proj-1-remote-state-bucket-krish"
