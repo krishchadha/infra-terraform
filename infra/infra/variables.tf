@@ -2,6 +2,10 @@ variable "bucket_name" {
   type        = string
   description = "Remote state bucket name"
 }
+variable "my_env" {
+  description = "The environment for the project (e.g., dev, stg, prd)"
+  type        = string
+}
 
 variable "name" {
   type        = string
